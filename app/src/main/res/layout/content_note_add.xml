@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <Switch
+                android:id="@+id/authSwitch"
+                style="@style/strong_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/protection" />
+
+            <TextView
+                android:id="@+id/noteDesc"
+                style="@style/strong_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title" />
+
+            <EditText
+                android:id="@+id/noteDescInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/type_note_desc"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/noteText"
+                style="@style/strong_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/note_text" />
+
+            <EditText
+                android:id="@+id/noteTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/type_your_note_here"
+                android:inputType="textMultiLine"
+                android:singleLine="false" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

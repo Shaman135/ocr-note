@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OCRNote2</string>
+    <string name="title_activity_add_note">Dodaj notatkę</string>
+    <string name="title_activity_edit_note">Edytuj notatkę</string>
+    <string name="empty_field">Proszę wypełnić wszystkie pola</string>
+    <string name="description">Opis:</string>
+    <string name="type_note_desc">Tutaj wpisz opisz…</string>
+    <string name="note_text">Tekst notatki:</string>
+    <string name="type_your_note_here">Tutaj wpisz notatkę…</string>
+    <string name="gallery">Galeria</string>
+    <string name="add_photo">Dodaj zdjęcie</string>
+    <string name="navigation_drawer_open">Otwórz menu</string>
+    <string name="navigation_drawer_close">Zamknij menu</string>
+    <string name="title">Tytuł:</string>
+    <string name="upload">Wyślij</string>
+    <string name="delete">Usuń</string>
+    <string name="notes">Notatki</string>
+    <string name="text_placeholder">Brak tekstu</string>
+    <string name="text_recognizer_not_operational">Wykrywacz tekstu nie działa</string>
+    <string name="missing_permission">Brak uprawnień</string>
+    <string name="dir_failure">Nie można utworzyć katalogu</string>
+    <string name="save_failure">Nie można zapisać pliku</string>
+    <string name="saved">Zapisano plik:</string>
+    <string name="confirm">Zatwierdź</string>
+    <string name="cancel">Anuluj</string>
+    <string name="wait">Proszę czekać…</string>
+    <string name="get_failure">Nie pobrano kodu języka. Używam domyślnego.</string>
+    <string name="get_success">Pobrano kod języka</string>
+    <string name="http_info">Czy chcesz pobrać kod języka dla syntezatora? Jeśli nie, użyjemy języka domyślnego dla tego urządzenia.</string>
+    <string name="protection">Dodać weryfikację palcem?</string>
+    <string name="auth_explain">Ta notatka jest chroniona.\n Musimy Cię zweryfikować.</string>
+    <string name="auth_fail">Błąd podczas weryfikacji</string>
+    <string name="detection_fail">Nie znaleziono czytnika</string>
+    <string name="no_fingerprints">Nie masz zapisanych odcisków w ustawieniach</string>
+    <string name="no_security">Nie masz włączonej blokady ekranu w ustawieniach</string>
+</resources>

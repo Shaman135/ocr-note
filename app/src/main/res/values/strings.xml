@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">OCRNote2</string>
+    <string name="title_activity_add_note">Add Note</string>
+    <string name="title_activity_edit_note">Edit Note</string>
+    <string name="empty_field">Please fill all the fields</string>
+    <string name="description">Description:</string>
+    <string name="type_note_desc">Type note description here…</string>
+    <string name="note_text">Note text:</string>
+    <string name="type_your_note_here">Type your note here…</string>
+    <string name="gallery">Gallery</string>
+    <string name="add_photo">Add photo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title">Title:</string>
+    <string name="upload">Upload</string>
+    <string name="delete">Delete</string>
+    <string name="notes">Notes</string>
+    <string name="text_placeholder">No text</string>
+    <string name="text_recognizer_not_operational">Text recognizer isn\'t operational</string>
+    <string name="missing_permission">No permission</string>
+    <string name="dir_failure">Can\'t create directory to save image.</string>
+    <string name="save_failure">Can\'t save image</string>
+    <string name="saved">Saved file:</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="wait">Please wait…</string>
+    <string name="get_failure">Couldn\'t get language code. Using Default</string>
+    <string name="get_success">Successfully got language code</string>
+    <string name="http_info">Do you want to download language code for Text-to-Speech? If not, we will use default phone language.</string>
+    <string name="protection">Add fingerprint auth?</string>
+    <string name="auth_explain">This note is protected. \n We need to verify it\'s you.</string>
+    <string name="auth_fail">Authentication error.</string>
+    <string name="detection_fail">Can\'t detect hardware</string>
+    <string name="no_fingerprints">You have no fingerprints enrolled in settings</string>
+    <string name="no_security">You have not enabled lock screen in settings</string>
+</resources>
